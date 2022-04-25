@@ -1,4 +1,3 @@
-import json
 import unittest
 from django.test import Client
 from decouple import config

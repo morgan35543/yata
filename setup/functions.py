@@ -26,3 +26,5 @@ def randomKey():
     keys = [_.key for _ in APIKey.objects.filter(status=True)]
     key = random.choice(keys)
     return key
+
+    return random.choice(keys)
