@@ -1,4 +1,4 @@
-# last update: 2022/04/24
+# last update: 2022/04/26
 # python 3.8.10
 # pip 22.0.2
 
@@ -32,6 +32,7 @@ python-magic>=0.4.22
 python-magic-bin==0.4.14
 Pillow==9.0.1                            # If OOM: pip install --compile --install-option=-O1 Pillow
 xkcdpass==1.19.3
+# fontawesome-free
 
 # http server                            # for prod, not both needed
 # gunicorn==20.1.0                         # Windows users uncomment this line
